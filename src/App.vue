@@ -1,32 +1,53 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <div class="test"></div> -->
     <router-view/>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 }
 
-#nav {
-  padding: 30px;
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
+body{
+  margin: 0 !important;
+}
+#app{
+  /* background-color: red; */
+  padding-top: 0 !important;
+}
+.test{
+  height: 10px;
+  width: 10px;
+  background-color: blue;
 }
 </style>
